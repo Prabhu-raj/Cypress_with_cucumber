@@ -1,3 +1,4 @@
+@Login_Portal @regression
 Feature: WebdriverUniversity - Login Page
 
     Background: Preconditions
