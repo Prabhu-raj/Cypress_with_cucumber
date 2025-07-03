@@ -1,9 +1,11 @@
-@Login_Portal @regression
+@login_portal @regression
 Feature: WebdriverUniversity - Login Page
 
     Background: Preconditions
         Given I navigate to the webdriveruniversity homepage
         When I click on the Login Portal
+        When I wait for 5 seconds
+
 
     Scenario Outline: Validate valid and invalid Login
         And I enter a valid username <userName>
@@ -14,4 +16,4 @@ Feature: WebdriverUniversity - Login Page
         Examples:
             | userName  | password     | expectedAlertText    |
             | webdriver | webdriver123 | validation succeeded |
-            | webdriver | test123      | validation failed |
+            | webdriver | test123      | validation failed    |

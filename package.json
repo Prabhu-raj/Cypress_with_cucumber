@@ -7,16 +7,40 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "full-regression-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/*.feature'",
+    "full-regression-headless-chrome": "cypress run --browser chrome --spec 'cypress/e2e/*.feature'",
+    "contact_us-tests-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/contact_us.feature'",
+    "login_portal-tests-headed-chrome": "cypress run --headed --browser chrome --spec 'cypress/e2e/login_portal.feature'",
+    "contact-us-tests-headed": "cypress run -e TAGS=\"@contact_us\" --headed",
+    "contact-us-tests-headless": "cypress run -e TAGS=\"@contact_us\"",
+    "login-tests-headed": "cypress run -e TAGS=\"@login_portal\" --headed",
+    "login-and-smoke-pack": "cypress run -e TAGS=\"@smoke or @login_portal\" --headed",
+    "smoke-pack-headed": "cypress run -e TAGS=\"@smoke\" --headed && node cucumber-html-report.js",
+    "regression-pack-headed": "cypress run -e TAGS=\"@regression and not @smoke\" --headed && node cucumber-html-report.js"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
     "cypress": "^14.5.0",
     "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
     "ts-loader": "^9.5.2"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    },
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cypress/reports/cucumber-json/cucumber-report.json"
+    }
   }
 }
