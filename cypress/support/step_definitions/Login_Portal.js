@@ -3,11 +3,16 @@
 
 import { Then, When } from "@badeball/cypress-cucumber-preprocessor";
 
+import Homepage_PO from "../page-objects/Homepage_PO";
+
+const homePage = new Homepage_PO();
+
 let stub;
 
 When("I click on the Login Portal", () => {
-    cy.get("#login-portal").invoke("removeAttr", "target").click();
-})
+    // cy.get("#login-portal").invoke("removeAttr", "target").click();
+      homePage.clickOn_Login_Button();
+}) 
 
 When("I enter a valid username {}", (userName) => {
     cy.get("#text").type(userName);
