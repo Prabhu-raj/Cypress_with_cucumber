@@ -2,12 +2,12 @@
 /// <reference types="@badeball/cypress-cucumber-preprocessor" />
 
 import { Given, When, Before } from "@badeball/cypress-cucumber-preprocessor";
-// import Base_PO from "../page-objects/Base_PO";   
-import Homepage_PO from "../page-objects/Homepage_PO";
+ 
+import Homepage_PO from "../page_objects/Homepage_PO";
 
 // const url = "https://www.webdriveruniversity.com"
 
-// const basePage = new Base_PO();
+
 const homePage = new Homepage_PO();
 
 Before(() => {

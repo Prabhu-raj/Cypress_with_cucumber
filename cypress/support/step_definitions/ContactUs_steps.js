@@ -2,32 +2,44 @@
 /// <reference types="@badeball/cypress-cucumber-preprocessor" />
 
 import { When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import Contactus_PO from "../page_objects/Contactus_PO";
+
+const contactus_Page = new Contactus_PO();
 
 When("I type a first name", () => {
   cy.wait(3000);
-  cy.get("input[placeholder='First Name']").type("Prabhu");
+  // cy.get("input[placeholder='First Name']").type("Prabhu");
+  contactus_Page.type_FirstName("Prabhu");
 });
 
 When("I type a last name", () => {
-  cy.get("input[placeholder='Last Name']").type("Raj");
+  // cy.get("input[placeholder='Last Name']").type("Raj");
+  contactus_Page.type_LastName("Raj");
 });
 
 When("I enter an email address", () => {
-  cy.get("input[placeholder='Email Address']").type("prabhurajpudi@gmail.com");
+  // cy.get("input[placeholder='Email Address']").type("prabhurajpudi@gmail.com");
+  contactus_Page.type_EmailAddress("prabhurajpudi@gmail.com");
 });
 
 When("I type a comment", () => {
-  cy.get("textarea[placeholder='Comments']").type("Test comment");
+  // cy.get("textarea[placeholder='Comments']").type("Test comment");
+  contactus_Page.type_Comment("Test comment");
 });
 
 When("I click on the submit button", () => {
-  cy.get("input[value='SUBMIT']").click();
+  // cy.get("input[value='SUBMIT']").click();
+  contactus_Page.clickOn_Submit_Button.click();
 });
 
 Then(
   "I should be presented with a successful contact us submission message",
   () => {
-    cy.get("div[id='contact_reply'] h1").should(
+    // cy.get("div[id='contact_reply'] h1").should(
+    //   "have.text",
+    //   "Thank You for your Message!"
+    // );
+    contactus_Page.successful_Submission_Header_Txt.should(
       "have.text",
       "Thank You for your Message!"
     );

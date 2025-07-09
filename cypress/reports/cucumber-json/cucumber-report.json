@@ -13,16 +13,16 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -34,8 +34,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 2114000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -47,8 +47,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 650000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -60,8 +60,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 3217000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -73,8 +73,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 165000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -86,8 +86,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 393000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -99,8 +99,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 268000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -112,8 +112,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 1441000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -125,16 +125,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 10000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -161,16 +161,16 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -182,8 +182,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 222000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -195,8 +195,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 244000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -208,8 +208,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 3203000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -221,8 +221,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 166000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -234,8 +234,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 272000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -247,16 +247,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 5000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -283,16 +283,16 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -304,8 +304,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 421000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -317,8 +317,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 237000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -330,8 +330,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 190000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -343,8 +343,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 191000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -356,8 +356,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 409000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -369,8 +369,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 288000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -382,8 +382,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 1848000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -395,16 +395,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -431,24 +431,24 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -460,8 +460,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 232000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -473,21 +473,21 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 248000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "I type a first name John and a last name 'Jones'",
+            "name": "I type a first name 'John' and a last name 'Jones'",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 370000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -499,8 +499,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 698000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -512,8 +512,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 1055000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -525,16 +525,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 5000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -565,24 +565,24 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 3000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -594,8 +594,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 226000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -607,21 +607,21 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 229000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "I type a first name Mia and a last name 'Carter'",
+            "name": "I type a first name 'Mia' and a last name 'Carter'",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 365000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -633,8 +633,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 708000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -646,8 +646,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 1066000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -659,16 +659,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 6000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -699,24 +699,24 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -728,8 +728,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 234000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -741,21 +741,21 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 249000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "I type a first name Grace and a last name 'Hudson'",
+            "name": "I type a first name 'Grace' and a last name 'Hudson'",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 390000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -767,8 +767,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 683000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -780,8 +780,8 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 270000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -793,16 +793,16 @@
               "location": "not available:0"
             },
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -846,122 +846,109 @@
         "description": "",
         "id": "webdriveruniversity---login-page;validate-valid-and-invalid-login",
         "keyword": "Scenario Outline",
-        "line": 18,
+        "line": 19,
         "name": "Validate valid and invalid Login",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4000000
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "I navigate to the webdriveruniversity homepage",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I click on the Login Portal",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
             "line": 7,
+            "name": "I navigate to the webdriveruniversity login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
             "name": "I wait for 5 seconds",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "I enter a valid username webdriver",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5009000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "I enter a valid password webdriver123",
+            "name": "I enter a valid username webdriver",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 242000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
+            "name": "I enter a valid password webdriver123",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
             "name": "I click on the Login button",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 270000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 15,
             "name": "I should be presened with an alert box which contains text 'validation succeeded'",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5000000
             }
           }
         ],
@@ -981,122 +968,109 @@
         "description": "",
         "id": "webdriveruniversity---login-page;validate-valid-and-invalid-login",
         "keyword": "Scenario Outline",
-        "line": 19,
+        "line": 20,
         "name": "Validate valid and invalid Login",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4000000
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "I navigate to the webdriveruniversity homepage",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I click on the Login Portal",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
             "line": 7,
+            "name": "I navigate to the webdriveruniversity login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
             "name": "I wait for 5 seconds",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "I enter a valid username webdriver",
-            "match": {
-              "location": "not available:0"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5011000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "I enter a valid password test123",
+            "name": "I enter a valid username webdriver",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 232000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
+            "name": "I enter a valid password test123",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
             "name": "I click on the Login button",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 245000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 15,
             "name": "I should be presened with an alert box which contains text 'validation failed'",
             "match": {
               "location": "not available:0"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5000000
             }
           }
         ],

@@ -2,8 +2,9 @@
 Feature: WebdriverUniversity - Login Page
 
     Background: Preconditions
-        Given I navigate to the webdriveruniversity homepage
-        When I click on the Login Portal
+        # Given I navigate to the webdriveruniversity homepage
+        # When I click on the Login Portal
+        Given I navigate to the webdriveruniversity login page
         When I wait for 5 seconds
 
 
