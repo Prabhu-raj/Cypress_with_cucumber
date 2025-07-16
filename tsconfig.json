@@ -6,8 +6,10 @@
         "./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"
       ]
     },
-    "types": ["cypress", "cypress-xpath"],
+    "types": ["cypress", "cypress-xpath", "node"], 
     "moduleResolution": "node", // ✅ helps with paths
-    "target": "es6"
+    "target": "es6",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }

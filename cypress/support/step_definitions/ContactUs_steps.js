@@ -28,21 +28,22 @@ When("I type a comment", () => {
 });
 
 When("I click on the submit button", () => {
-  // cy.get("input[value='SUBMIT']").click();
-  contactus_Page.clickOn_Submit_Button.click();
+  cy.get("input[value='SUBMIT']").click();
+  // contactus_Page.clickOn_Submit_Button.click();
 });
 
 Then(
   "I should be presented with a successful contact us submission message",
   () => {
-    // cy.get("div[id='contact_reply'] h1").should(
-    //   "have.text",
-    //   "Thank You for your Message!"
-    // );
-    contactus_Page.successful_Submission_Header_Txt.should(
+    cy.get("div[id='contact_reply'] h1").should(
       "have.text",
       "Thank You for your Message!"
     );
+    // cy.wait(5000);
+    // contactus_Page.successful_Submission_Header_Txt.should(
+    //   "have.text",
+    //   "Thank You for your Message!"
+    // );
   }
 );
 
